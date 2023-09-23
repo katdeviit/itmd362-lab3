@@ -39,3 +39,14 @@ form label {
   display: inline-block;
   width: 120px;
 }
+
+@media (max-width: 560px) {
+  form label {
+    display: block;
+  }
+  form input {
+    display: block;
+    margin: 0.25em 0;
+    width: calc(100% - 10px);
+  }
+}
