@@ -30,6 +30,7 @@ section {
   border: 1px solid rgb(55, 49, 85);
   max-width: 85%;
   margin: 5px auto;
+  border-radius: 5px;
 }
 
 form .field {
@@ -41,10 +42,17 @@ form label {
   width: 120px;
 }
 
-form .field.submit-field {
+form input {
+  border-radius: 5px;
+  border: 2px solid rgb(125, 113, 192);
+  padding: 2px 5px;
+}
+
+form .submit-field {
   margin-top: 1.5em;
   margin-bottom: 0;
   text-align: right;
+  width: 100%;
 }
 
 @media (max-width: 560px) {
@@ -55,10 +63,13 @@ form .field.submit-field {
     display: block;
     width: fit-content;
   }
-  form input {
+  form .field input {
     display: block;
     margin: 0.25em 0;
     width: calc(100% - 10px);
+  }
+  form .submit-field {
+    text-align: center;
   }
   section {
     margin: 5px;
