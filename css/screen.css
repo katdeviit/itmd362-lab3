@@ -1,0 +1,41 @@
+html {
+  background-color: #0a0f27;
+  color: #ffffff;
+  font-family: Verdana, sans-serif;
+  font-size: 0.9em;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+section {
+  padding: 1em;
+  background-color: rgba(31, 27, 49, 0.5);
+  border: 1px solid rgb(55, 49, 85);
+  margin: 5px;
+}
+
+form .field {
+  margin: 0.3em 5px;
+}
+
+form label {
+  display: inline-block;
+  width: 120px;
+}
