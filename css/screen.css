@@ -28,7 +28,8 @@ section {
   padding: 1em;
   background-color: rgba(31, 27, 49, 0.5);
   border: 1px solid rgb(55, 49, 85);
-  margin: 5px;
+  max-width: 85%;
+  margin: 5px auto;
 }
 
 form .field {
@@ -40,6 +41,12 @@ form label {
   width: 120px;
 }
 
+form .field.submit-field {
+  margin-top: 1.5em;
+  margin-bottom: 0;
+  text-align: right;
+}
+
 @media (max-width: 560px) {
   form label {
     display: block;
@@ -48,5 +55,11 @@ form label {
     display: block;
     margin: 0.25em 0;
     width: calc(100% - 10px);
+  }
+}
+
+@media (min-width: 800px) {
+  section {
+    max-width: 750px;
   }
 }
