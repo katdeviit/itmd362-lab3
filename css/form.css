@@ -72,11 +72,17 @@ form #input-submit {
     display: block;
     margin: 0.25em 0;
     width: calc(100% - 10px);
+    padding: 0.5em;
   }
   form #input-age-verification input {
     display: inline;
     margin: 0;
-    width: inherit;
+    padding: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  form #input-age-verification label {
+    display: inline;
   }
   form #input-submit {
     text-align: center;
