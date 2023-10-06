@@ -1,0 +1,94 @@
+html {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: 0.9em;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+main {
+  padding: 2.5em;
+  background-color: rgba(80, 80, 80, 0.11);
+  max-width: 85%;
+  margin: 5px auto;
+  border-radius: 5px;
+}
+
+p {
+  margin: 1.5em 0;
+}
+
+form li {
+  margin: 2em 5px;
+}
+
+form label {
+  display: inline-block;
+  width: 120px;
+}
+
+form input {
+  border-radius: 5px;
+  padding: 2px 5px;
+}
+
+form #input-submit {
+  margin-top: 1.5em;
+  margin-bottom: 0;
+  text-align: right;
+  width: 100%;
+}
+
+#input-age-verification label {
+  width: 100%;
+  display: inline;
+}
+
+@media (max-width: 560px) {
+  html {
+    font-size: 1.05em;
+  }
+  form label {
+    display: block;
+    width: fit-content;
+  }
+  form li input {
+    display: block;
+    margin: 0.25em 0;
+    width: calc(100% - 10px);
+  }
+  form #input-age-verification input {
+    display: inline;
+    margin: 0;
+    width: inherit;
+  }
+  form #input-submit {
+    text-align: center;
+  }
+  main {
+    margin: 5px;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 800px) {
+  main {
+    max-width: 750px;
+  }
+}
